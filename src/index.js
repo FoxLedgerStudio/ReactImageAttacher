@@ -9,7 +9,7 @@ const defaultOptions = {
 };
 
 // Return Promise
-const mergeImages = (sources = [], options = {}) => new Promise(resolve => {
+const reactImageAttacher = (sources = [], options = {}) => new Promise(resolve => {
 	options = Object.assign({}, defaultOptions, options);
 
 	// Setup browser/Node.js specific variables
@@ -69,4 +69,4 @@ const mergeImages = (sources = [], options = {}) => new Promise(resolve => {
 		}));
 });
 
-export default mergeImages;
+export default reactImageAttacher;
