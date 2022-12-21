@@ -1,13 +1,8 @@
 {
   "name": "react-image-attacher",
   "version": "2.0.0",
-  "main": "dist/index.umd.js",
-  "module": "dist/index.es2015.js",
-  "files": [
-    "dist"
-  ],
+  "main": "src/index.js",
   "scripts": {
-    "prebuild": "rm -rf dist",
     "build": "rollup -c",
     "pretest": "npm run build",
     "test": "nyc ava",
