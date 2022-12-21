@@ -69,4 +69,4 @@ const reactImageAttacher = (sources = [], options = {}) => new Promise(resolve =
 		}));
 });
 
-export default reactImageAttacher;
+module.export = reactImageAttacher;
