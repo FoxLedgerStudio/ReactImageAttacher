@@ -2,15 +2,6 @@
   "name": "react-image-attacher",
   "version": "5.0.0",
   "main": "src/index.js",
-  "scripts": {
-    "build": "rollup -c",
-    "pretest": "npm run build",
-    "test": "nyc ava",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "prelint": "npm run build",
-    "lint": "xo",
-    "prepublish": "npm run build"
-  },
   "xo": {
     "env": "browser",
     "extends": "xo-lukechilds"
